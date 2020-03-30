@@ -1,0 +1,5 @@
+---
+- name: Configure nano package
+  package:
+    name: "{{ nano_package_name }}"
+    state: "{{ nano_package_state }}"
